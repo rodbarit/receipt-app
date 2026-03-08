@@ -1,7 +1,7 @@
 // api/extract.js — Vercel Serverless Function
 // Requires env vars: ANTHROPIC_API_KEY, KV_REST_API_URL, KV_REST_API_TOKEN
 
-const DAILY_LIMIT = 10;
+const DAILY_LIMIT = 50;
 
 // Simple Vercel KV client using fetch (no extra package needed)
 async function kvGet(key) {
